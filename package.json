@@ -1,0 +1,15 @@
+{
+  "name": "parler-chine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A French speaking coach for Mandarin speakers living in France.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
