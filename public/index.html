@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Parler Chine 鈥?a French speaking coach for Mandarin speakers living in France." />
+    <title>Parler Chine 路 鍦ㄦ硶鍗庝汉鍙ｈ鏁欑粌</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Parler Chine home"><span class="brand-mark">P</span><span>Parler <em>Chine</em></span></a>
+      <div class="topbar-right"><span class="mode-pill" id="mode-pill">姝ｅ湪妫€鏌ユā寮忊€?/span><button class="text-button" id="reset-profile">閲嶇疆鎴戠殑缁冧範璁板綍</button></div>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow">FRENCH FOR LIFE IN FRANCE</p>
+          <h1>涓嶆槸鈥滀細鑳屾硶璇€濓紝<br />鑰屾槸<strong>鎶婁簨鍔炴垚銆?/strong></h1>
+          <p class="lede">涓哄湪娉曞崕浜烘墦閫犵殑鐪熷疄鎯呮櫙鍙ｈ鏁欑粌銆傚紑鍙ｃ€佽鐞嗚В銆佸惉鎳備笅涓€鍙ワ紝鐒跺悗鍙慨澶嶆渶褰卞搷娌熼€氱殑涓€涓棶棰樸€?/p>
+          <div class="hero-actions"><a class="primary-button" href="#practice">寮€濮嬩竴杞湡瀹炲璇?<span>鈫?/span></a><button class="quiet-button" id="load-example">杞藉叆婕旂ず鍥炵瓟</button></div>
+          <p class="privacy-note">浣犵殑缁冧範鍘嗗彶浠呬繚瀛樺湪姝ゆ祻瑙堝櫒銆傛病鏈?API Key 鏃讹紝搴旂敤浣跨敤鍙鐜扮殑婕旂ず鍙嶉銆?/p>
+        </div>
+        <aside class="hero-card" aria-label="Today鈥檚 mission">
+          <div class="card-top"><span>浠婃棩浠诲姟</span><span class="live-dot">01</span></div>
+          <p class="scene-icon">鈱?/p>
+          <h2>鐪嬫埧锛屼笉鍙槸浼氳<br />鈥淛e veux louer鈥?</h2>
+          <p>鎶娾€滄垜鎯崇鎴库€濊寰楄嚜鐒躲€佺ぜ璨岋紝骞惰幏寰椾笅涓€姝ユ墍闇€鏉愭枡銆?/p>
+          <div class="mini-progress"><span>娌熼€氱洰鏍?/span><b>0 / 3</b></div>
+          <div class="progress-track"><i></i></div>
+        </aside>
+      </section>
+
+      <section class="scenario-strip shell" aria-labelledby="scenario-heading">
+        <div class="section-heading"><div><p class="eyebrow">CHOOSE A REAL MOMENT</p><h2 id="scenario-heading">浠婂ぉ锛屼綘瑕佸湪鍝効寮€鍙ｏ紵</h2></div><p>鍙€変竴涓満鏅€傜粌鍒拌兘缁х画瀵硅瘽銆?/p></div>
+        <div class="scenario-grid" id="scenario-grid"></div>
+      </section>
+
+      <section class="practice-section" id="practice">
+        <div class="shell practice-grid">
+          <div class="mission-panel">
+            <p class="eyebrow">YOUR MISSION</p>
+            <p class="mission-number" id="mission-number">01</p>
+            <h2 id="mission-title">鐪嬩竴濂楀叕瀵?/h2>
+            <p id="mission-context">浣犳鍦ㄩ噷鏄傜湅涓€濂?studio銆傞棶绉熼噾銆佹潅璐癸紝浠ュ強鎴垮瓙鏄惁杩樺湪鍑虹銆?/p>
+            <div class="goal-box"><span>鏈疆鐩爣</span><strong id="mission-goal">纭鏄惁鍙锛屽苟闂竴涓疄闄呴棶棰樸€?/strong></div>
+            <details><summary>闇€瑕佹椂鍐嶇湅锛氳瘝姹囨壎鎵?/summary><div class="vocabulary" id="vocabulary"></div></details>
+          </div>
+
+          <div class="speak-panel">
+            <div class="panel-label"><span>浣犵殑鍥炵瓟</span><span id="speech-status" aria-live="polite">鍙緭鍏ワ紝涔熷彲鐢ㄩ害鍏嬮</span></div>
+            <textarea id="transcript" lang="fr" placeholder="鍦ㄨ繖閲岃緭鍏ユ硶璇紝鎴栫偣鍑婚害鍏嬮寮€濮嬭璇濃€? aria-label="Your French response"></textarea>
+            <div class="speaking-controls"><button class="mic-button" id="record-button" aria-pressed="false"><span class="mic-icon">鈼?/span><span id="record-label">鐢ㄦ硶璇</span></button><button class="listen-button" id="play-recording" disabled>Play my take</button><button class="listen-button" id="listen-input">鍥炲惉鐩爣鍙?/button><button class="analyze-button" id="analyze-button">鑾峰緱鍙嶉 <span>鈫?/span></button></div>
+            <p class="input-help">璇煶璇嗗埆閲囩敤娴忚鍣ㄧ殑 <code>fr-FR</code> 鍔熻兘銆傚畠涓嶆敮鎸佹椂锛岀洿鎺ヨ緭鍏ユ枃瀛楀悓鏍疯兘瀹屾垚缁冧範銆?/p>
+            <section class="speech-lab" aria-labelledby="speech-lab-title">
+              <div class="lab-heading"><div><span class="card-kicker" id="speech-lab-title">LOCAL SPEECH LAB</span><p>On-device acoustic reflection. Your raw audio stays in this browser tab.</p></div><span class="lab-state" id="lab-state">Mic off ? nothing captured</span></div>
+              <div class="lab-visuals"><figure><figcaption>Waveform ? loudness over time</figcaption><canvas id="waveform" width="720" height="128" aria-label="Live audio waveform"></canvas></figure><figure><figcaption>Rolling spectrum ? 80?4,000 Hz</figcaption><canvas id="spectrogram" width="720" height="128" aria-label="Live local frequency spectrum"></canvas></figure><figure class="pitch-figure"><figcaption>F0 contour ? voiced frames only</figcaption><canvas id="pitch-canvas" width="720" height="128" aria-label="Estimated pitch contour"></canvas></figure></div>
+              <div class="lab-metrics"><div><span>Duration</span><strong id="lab-duration">?</strong></div><div><span>Voiced frames</span><strong id="lab-voice-ratio">?</strong></div><div><span>Median F0</span><strong id="lab-pitch">?</strong></div><div><span>Pauses</span><strong id="lab-pauses">?</strong></div></div>
+              <p class="lab-note">These are local signal metrics for pacing and self-review, not a grade for French sounds or accent. The app does not upload or persist audio.</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback-section shell" id="feedback" hidden aria-live="polite">
+        <div class="feedback-header"><div><p class="eyebrow">AFTER ONE TURN</p><h2>杩欎竴娆★紝鍙慨澶嶆渶鍊奸挶鐨勫湴鏂广€?/h2></div><div class="score-orbit"><span id="goal-score">鈥?/span><small>娌熼€氬畬鎴愬害</small></div></div>
+        <div class="feedback-summary" id="feedback-summary"></div>
+        <article class="task-evidence" id="task-evidence"></article>
+        <div class="feedback-grid">
+          <article class="feedback-card rewrite-card"><span class="card-kicker">NATURAL FRENCH</span><p class="original-line" id="original-line"></p><div class="rewrite-arrow">鈫?/div><p class="natural-line" id="natural-line"></p><button class="audio-button" id="listen-natural">鈻?鍚嚜鐒惰娉?/button></article>
+          <article class="feedback-card"><span class="card-kicker">WHY THIS HAPPENS</span><div id="issues-list" class="issues-list"></div></article>
+          <article class="feedback-card pronunciation-card"><span class="card-kicker">PRONUNCIATION CHECKPOINT</span><div id="pronunciation-list"></div></article>
+        </div>
+        <article class="micro-drill" id="micro-drill"></article>
+        <article class="next-turn"><div><span class="card-kicker">THE CONVERSATION CONTINUES</span><p class="agent-line" id="agent-line"></p><p class="translation" id="agent-translation"></p></div><div class="next-task"><span>浣犳潵鎺?/span><p id="next-task"></p><button class="primary-button compact" id="try-next-turn">缁х画鍥炵瓟 <span>鈫?/span></button></div></article>
+      </section>
+
+      <section class="profile-section shell" aria-labelledby="profile-title">
+        <div><p class="eyebrow">YOUR CHINESE-LEARNER MAP</p><h2 id="profile-title">涓嶆槸閿欓鏈紝<br />鏄綘鐨?strong>寮€鍙ｅ湴鍥俱€?/strong></h2><p>姣忔缁冧範鍙褰曢渶瑕佸涔犵殑琛ㄨ揪绫诲瀷锛涗笅涓€涓満鏅細浼樺厛鎶婂畠鍙樻垚鍙鍑哄彛鐨勪换鍔°€?/p></div>
+        <div class="map-card"><div class="map-header"><span>鏈満缁冧範璁板綍</span><b id="session-count">0 娆?/b></div><div class="map-bars" id="map-bars"></div><p class="map-empty" id="map-empty">瀹屾垚绗竴杞粌涔犲悗锛岃繖閲屼細鏄剧ず浣犵殑閲嶇偣銆?/p></div>
+      </section>
+    </main>
+    <footer><span>Parler Chine 路 Built for OpenAI Build Week</span><span>鐪熷疄鎯呮櫙 路 鏈夐檺绾犻敊 路 鍙户缁璇?/span></footer>
+    <template id="scenario-template"><button class="scenario-card"><span class="scenario-index"></span><span class="scenario-emoji"></span><strong></strong><small></small><i>鈫?/i></button></template>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
