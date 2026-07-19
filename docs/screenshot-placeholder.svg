@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Parler Chine preview placeholder</title>
+  <desc id="desc">A stylised placeholder for a screenshot of the Parler Chine web app.</desc>
+  <rect width="1200" height="630" fill="#f7f2e8"/>
+  <rect x="70" y="55" width="1060" height="520" rx="7" fill="#fffdf8" stroke="#ded7c9" stroke-width="3"/>
+  <rect x="70" y="55" width="1060" height="55" rx="7" fill="#fffdf8"/>
+  <circle cx="116" cy="82" r="16" fill="#ed6f59"/><text x="150" y="92" font-family="Georgia, serif" font-size="31" fill="#17222d">Parler <tspan fill="#ed6f59">Chine</tspan></text>
+  <text x="135" y="207" font-family="Georgia, serif" font-size="51" fill="#17222d">涓嶆槸鈥滀細鑳屾硶璇€濓紝</text><text x="135" y="274" font-family="Georgia, serif" font-size="51" fill="#ed6f59">鑰屾槸鎶婁簨鍔炴垚銆?/text>
+  <rect x="135" y="335" width="310" height="58" rx="4" fill="#ed6f59"/><text x="165" y="372" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#fff">寮€濮嬩竴杞湡瀹炲璇?鈫?/text>
+  <rect x="748" y="157" width="286" height="310" fill="#1d455c" transform="rotate(2 891 312)"/><text x="786" y="220" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#b6d2df">TODAY'S MISSION</text><text x="786" y="302" font-family="Georgia, serif" font-size="34" fill="#fff">鐪嬫埧锛屼笉鍙槸浼氳</text><text x="786" y="344" font-family="Georgia, serif" font-size="34" fill="#fff">鈥淛e veux louer鈥?</text><rect x="786" y="404" width="190" height="5" fill="#547183"/><rect x="786" y="404" width="58" height="5" fill="#ed6f59"/>
+</svg>
